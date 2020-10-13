@@ -87,11 +87,7 @@ h2{
 .sidenav i{
 	padding-right: 15px;
 }
-table, th{
-  border: 1px solid black;
-  table-layout: fixed; 
-  padding: 10px;
-}
+
 .table-fixed{
 	margin-left:20rem;
 	margin top:90rem;
