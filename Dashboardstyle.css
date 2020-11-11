@@ -21,6 +21,12 @@ header{
 .left span{
 	color: #00b3b3;
 }
+h1{
+	color:solid-black;
+	margin-left:290px;
+	font-size: 30px;
+	font-weight: bold;
+}
 h2{
 	color:#34495e;
 	margin:20px;
@@ -29,6 +35,23 @@ h2{
 	font-size: 20px;
 	font-weight: 250;
 }
+h3{
+	color:#34495e;
+	margin:20px;
+	margin-left:290px;
+	text-transform: capitalize;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+h5{
+	color:solid-black;
+	margin:20px;
+	margin-left:290px;
+	font-size: 5px;
+	font-weight: bold;
+}
+
 .logout{
 	padding: 8px;
 	background: #34495e;
@@ -254,4 +277,40 @@ h2{
 	
 	#transdownloadBtn:hover{
 	background: #34495e;
+}
+
+.grid-container {
+  display: grid;
+  margin-left:100px;
+  height: 700px;
+  width:45%;
+  align-content: space-around;
+  grid-template-columns: auto;
+  grid-gap: 0.25px;
+  background-color: white;
+  padding: 0.25px;
+}
+
+.grid-container > div {
+  background-color: rgba(200, 250, 255, 0.7);
+  text-align: left;
+  padding: .5px 0;
+}
+.grid-container1 {
+  display: grid;
+  margin-left:150px;
+  height:350px;
+  width:65%;
+  align-content:space-around;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #white;
+  padding: 10px;
+}
+
+.grid-container1 > div {
+  background-color: rgba(200, 250, 255, 0.7);
+  text-align: center ;
+  padding: 20px 0;
+  
 }
